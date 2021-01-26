@@ -10,7 +10,7 @@ cd $TB_HOME/config
 
 ```
 	
-Update this file
+- :warning: **Update this file**
 ```bash
 cd $TB_HOME/clients/config/
 nano tbdsn.tbr
