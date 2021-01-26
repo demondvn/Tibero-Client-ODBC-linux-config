@@ -65,21 +65,19 @@ export TBCLI_WCHAR_TYPE=UCS2
     Environment=TBCLI_WCHAR_TYPE=UCS2
 
 # [Test]
-curl -X POST "http://localhost:5000/api/Auth/Login" -H  "accept: */*" -H  "Content-Type: application/json-patch+json" -d "{\"username\":\"atmaneuler\",\"password\":\"sa\",\"macaddress\":\"string\"}"
+curl -X POST "http://localhost:5000/api/Auth/Login" -H  "accept: */*" -H  "Content-Type: application/json-patch+json" -d "{\"username\":\"userXXX\",\"password\":\"passXXX\",\"macaddress\":\"string\"}"
 
 
 
 # [Test with Tool]
 
-;iodbctest "DSN=tibero;UID=SESCS;PWD=SESCS"
+;iodbctest "DSN=tibero;UID=UIDXXX;PWD=PWDXXX"
 
-;"DSN={tibero};UID={NTCS};PWD={NTCS12}"
+;"DSN={tibero};UID={UIDXXX};PWD={PWDXXX}"
 
-;isql tibero SESCS SESCS
+;isql tibero UIDXXX PWDXXX
 
-;iusql tibero SESCS SESCS
-
-;isql tibero NTCS NTCS12
+;iusql tibero UIDXXX PWDXXX
 
 ;iodbc-config --odbcini --odbcinstini
 
