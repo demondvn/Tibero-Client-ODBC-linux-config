@@ -5,12 +5,14 @@ tar xvzf tibero6-bin-FS07_CS_2005-linux64-186728-opt-tested.tar.gz
 cd /root/tibero6/
 cd config/
 export TB_HOME=/root/tibero6
+cd $TB_HOME/config
 ./gen_tip.sh 
-cd ../clients/config/
+
 ```
 	
 Update this file
 ```bash
+cd $TB_HOME/clients/config/
 nano tbdsn.tbr
 ```
 
