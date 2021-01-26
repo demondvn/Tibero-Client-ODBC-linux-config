@@ -1,15 +1,19 @@
 # Tibero_linux_config
 Config Tibero Client on Linux
 
-tar xvzf tibero6-bin-FS07_CS_2005-linux64-186728-opt-tested.tar.gz 
+	tar xvzf tibero6-bin-FS07_CS_2005-linux64-186728-opt-tested.tar.gz 
 
-cd /root/tibero6/
+	cd /root/tibero6/
 
-cd config/
+	cd config/
 
-export TB_HOME=/root/tibero6
+	export TB_HOME=/root/tibero6
 
-./gen_tip.sh 
+	./gen_tip.sh 
+	cd ../clients/config/
+Update this file
+
+	nano tbdsn.tbr
 
 # [Config ODBC] 
  cd /etc/
