@@ -57,7 +57,7 @@ export TBCLI_WCHAR_TYPE=UCS2
 
     Environment=ODBCINI=/etc/odbc.ini
     Environment=ODBCINSTINI=/etc/odbcinst.ini
-    Environment=TB_HOME=/etc/ODBCDataSources/tibero6
+    Environment=TB_HOME=/root/tibero6
     Environment=TB_SID=tibero
     Environment=LD_LIBRARY_PATH=$TB_HOME/lib:$TB_HOME/client/lib
     Environment=PATH=$TB_HOME/bin:$TB_HOME/client/bin:$PATH
