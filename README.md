@@ -29,8 +29,8 @@ Update this file
 		Driver = TiberoDriver
 		Description = Tibero 6 ODBC Datasource
 		SID = tibero
-		User = SESCS
-		Password = SESCS
+		User = UIDXXX
+		Password = PWDXXX
     
 nano odbcinst.ini 
 
