@@ -40,7 +40,7 @@ Password = PWDXXX
 nano odbcinst.ini 
 ```
   
-```txt
+```ini
 [TiberoDriver]
 Description = Tibero Driver
 Driver = /root/tibero6/client/lib/libtbodbc.so
